@@ -12,15 +12,17 @@ n won't exceed 100, which keeps the initial sorting very fast.
 
 Time complexity:
 create dictionary -> O(n), with n being characters in the data_string
-sort dictionary -> O(mlogm), with m being the unique characters in the string
+sort dictionary -> O(mlogm), with m being the unique characters in the string.
 This can be worst case the length of the input data.
-generating tree -> O(m) for outer loop + O(m) (worst-case) for inserting back to the linked list
-generating code dictionary -> O(m)
-generating code made of 0 and 1 -> O(n)
+- generating tree -> O(m) 
+- for outer loop + O(m) (worst-case) 
+- for inserting back to the linked list
+- generating code dictionary -> O(m)
+- generating code made of 0 and 1 -> O(n)
 
 Space complexity:
 O(m) with m being unique characters in the input data
-If the input string is long the space complexity is actually reduced.
-If the input string has only unique characters the space complexity goes up, because
+- If the input string is long the space complexity is actually reduced.
+- If the input string has only unique characters the space complexity goes up, because
 I need to save the code.
 
