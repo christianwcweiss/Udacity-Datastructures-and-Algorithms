@@ -1,11 +1,11 @@
-#Exercise 1
+# Exercise 1
 
-###Explanation
+### Explanation
 I don't save arrays to avoid using extra space, because in this exercise it's not necessary.
 I used a augmented binary search to solve this exercise.
 
-###Time Complexity
+### Time Complexity
 O(log n)
 
-###Space complexity
+### Space complexity
 O(1)
