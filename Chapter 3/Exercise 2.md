@@ -1,11 +1,11 @@
-#Exercise 2
+# Exercise 2
 
-###Explanation
+### Explanation
 I didn't use any additional datastructures to save space complexity.
 I used an augmented binary search to check the array in O(log n) complexity
 
-###Time Complexity
+### Time Complexity
 O(2 * log n) -> O(log n)
 
-###Space complexity
+### Space complexity
 O(1)
