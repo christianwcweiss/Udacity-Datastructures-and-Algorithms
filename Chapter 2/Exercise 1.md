@@ -1,9 +1,9 @@
 ## Exercise 1
 
-Data Structures:
+### Data Structures:
 I chose a double linked list and a dictionary for this exercise.
 Alternatively to the linked list I could have also used an array,
-since an array is built-in as a double linked list would work.
+since an array is built-in as a double linked list.
 The exercise wants to store key-value pairs, with the twist, that
 if it's full the oldest element gets removed.
 Storing key-value pairs is straight forward -> Dictionary
