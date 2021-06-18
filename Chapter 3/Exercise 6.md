@@ -1,10 +1,10 @@
-#Exercise 6
+# Exercise 6
 
-###Explanation
+### Explanation
 One loop and overwrite the variable for min and max that has been created.
 
-###Time Complexity
+### Time Complexity
 O(n) -> one loop
 
-###Space complexity
+### Space complexity
 O(1) -> no extra space used
