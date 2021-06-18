@@ -19,11 +19,6 @@ class LRU_Cache(object):
             self.capacity = capacity
         else:
             self.capacity = capacity + 1
-
-
-
-
-
         self.cache = {}
 
     def get(self, key):
@@ -67,8 +62,6 @@ class LRU_Cache(object):
             self.cache[key] = new_node
             self.tail.next = new_node
             self.tail = self.tail.next
-
-
 
 our_cache = LRU_Cache(5)
 
