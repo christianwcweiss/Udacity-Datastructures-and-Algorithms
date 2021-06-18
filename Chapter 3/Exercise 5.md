@@ -1,6 +1,6 @@
-#Exercise 5
+# Exercise 5
 
-###Explanation
+### Explanation
 I implemented a trie structure using a dictionary. The dictionary contains all 
 lowercase alphabet characters. In case it's on a real productive environment,
 special characters could be added easily, but it would make sense to also have the 
@@ -9,7 +9,7 @@ is made if the character was at least added ones.
 I discarded characters that are not in the dictionary. This depends on the specification of the
 project.
 
-###Time Complexity
+### Time Complexity
 Finding all suffixes from a word depends on the length of the word and the number
 of words already added.
 k = number of words added
@@ -18,7 +18,7 @@ then the worst case time complexity would be approximately O(k*n) for finding th
 suffixes.
 Inserting is O(1)
 
-###Space complexity
+### Space complexity
 Space complexity would be O(k*n) in the worst case.
 The more words that are however, added, the less space it consumes since many
 letter combinations would repeat in the trie. 
