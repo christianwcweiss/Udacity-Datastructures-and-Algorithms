@@ -1,14 +1,14 @@
-#Exercise 7
+# Exercise 7
 
-###Explanation
+### Explanation
 To store the subpaths I used a dictionary, because it allows lookup in O(1) time
 and I can store the values for a key, which are the nodes in my case.
 
-###Time Complexity
+### Time Complexity
 n = number of path elements after spliting up by slash '/'
 insert O(n)
 find O(n)
 
-###Space complexity
+### Space complexity
 k = number of unique elements
 O(k*n)
