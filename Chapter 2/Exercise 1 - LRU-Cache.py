@@ -1,4 +1,3 @@
-
 class Node(object):
     def __init__(self, key, value):
         self.value = value
@@ -10,7 +9,6 @@ class Node(object):
         return str(self.value)
 
 class LRU_Cache(object):
-
     def __init__(self, capacity):
         # Initialize class variables
         self.root = None
